@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ?
-        '/apirtc-vuejs/' :
-        '/'
+        '/apirtc-vuejs/' : '/',
+    outputDir: './docs'
 }
