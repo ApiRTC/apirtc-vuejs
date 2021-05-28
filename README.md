@@ -22,3 +22,17 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Deploy to github pages
+
+```
+npm run build
+
+git add docs/*
+
+git status
+
+git commit -a -m "deploy"
+
+git push origin main
+```
