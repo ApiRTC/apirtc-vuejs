@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <p>
+    <img alt="ApiRTC logo" src="./assets/ApiRTC.png" width="66" height="76" /> &
+    <img alt="Vue logo" src="./assets/logo.png" width="76" height="76" />
+  </p>
+  <Conversation />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Conversation from "./components/Conversation.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Conversation,
+  },
+};
 </script>
 
 <style>
