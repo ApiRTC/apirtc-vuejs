@@ -15,7 +15,9 @@
 </template>
 
 <script>
-const apiRTC = require("../../node_modules/@apizee/apirtc/apiRTC.min.js");
+//const apiRTC = require("../../node_modules/@apizee/apirtc/apiRTC.min.js");
+//import apiRTC from "@apizee/apirtc";
+import { UserAgent } from "@apizee/apirtc";
 
 export default {
   name: "Conversation",
@@ -29,7 +31,7 @@ export default {
       //==============================
       // 1/ CREATE USER AGENT
       //==============================
-      var ua = new apiRTC.UserAgent({
+      var ua = new UserAgent({
         uri: "apzkey:myDemoApiKey",
       });
 
