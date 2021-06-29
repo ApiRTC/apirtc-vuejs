@@ -109,7 +109,14 @@ export default {
                 //==============================
                 // 7/ PUBLISH LOCAL STREAM
                 //==============================
-                conversation.publish(localStream);
+                conversation
+                  .publish(localStream)
+                  .then((stream) => {
+                    console.log("published", stream);
+                  })
+                  .catch((err) => {
+                    console.error("publish error", err);
+                  });
               })
               .catch((err) => {
                 console.error("Conversation join error", err);
