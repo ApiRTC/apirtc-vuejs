@@ -1,4 +1,8 @@
-# apirtc-vuejs
+# ApiRTC over VueJS
+
+This project is a very simple **WebRTC** application developped in **VueJS** and using **ApiRTC**. 
+
+It is running **live** hosted on github.io : https://apirtc.github.io/apirtc-vuejs/.
 
 ## Project setup
 ```
